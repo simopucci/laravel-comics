@@ -1,12 +1,12 @@
 <header>
     <div class='top-header'>
         <div class='container'>
-            <span>DC POWER VISA</span>
+            <span class='me-5'>DC POWER VISA</span>
             <span>ADDITIONAL DC SITES</span>
         </div>
     </div>
 
-    <div class="container">
+    <nav class='d-flex align-items-center justify-content-center'>
 
         <ul>
             <li>
@@ -50,5 +50,7 @@
             </li>
         </ul>
 
-    </div>
+    </nav>
+
+    <div class="jumbotron"></div>
 </header>
