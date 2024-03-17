@@ -1,1 +1,43 @@
 @import "~bootstrap/scss/bootstrap";
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.top-header {
+    background-color: #0282F9;
+    color: white;
+    font-size: .6rem;
+    padding: 5px;
+    text-align: end;
+    
+    span {
+        margin: 0 20px;
+    }
+}
+
+header {
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+        padding: 1rem;
+    }
+}
+
+.link.active {
+    color: #0282F9;
+}
