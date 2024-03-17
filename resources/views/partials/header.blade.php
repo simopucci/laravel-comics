@@ -8,6 +8,8 @@
 
     <nav class='d-flex align-items-center justify-content-center'>
 
+    <img src="{{ Vite::asset('/resources/images/dc-logo.png') }}" alt="dc logo">
+
         <ul>
             <li>
                 <a @if (Route::currentRouteName() == 'characters') class='link active' @endif href="{{ route('characters') }}">Characters</a>
@@ -52,5 +54,5 @@
 
     </nav>
 
-    <div class="jumbotron"></div>
+    <div class='jumbotron'></div>
 </header>
